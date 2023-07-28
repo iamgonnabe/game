@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Training {
     Player player;
+
     public Training(Player player) {
         this.player = player;
     }
@@ -103,29 +104,4 @@ public class Training {
         }
         return player;
     }
-    /*void benchPress() {
-        player.muscle += 5;
-        player.hp -= 5;
-    }
-
-    void inclineBenchPress() {
-        player.muscle += 4;
-        player.hp -= 4;
-    }
-
-    void chestPress() {
-        player.muscle += 3;
-        player.hp -= 3;
-    }
-
-    void dips() {
-        player.muscle += 2;
-        player.hp -= 2;
-    }
-
-    void fly() {
-        player.muscle += 1;
-        player.hp -= 1;
-    }*/
 }
-
