@@ -31,6 +31,6 @@
 <br/><br/>내 정보를 확인한다.
 ## 진화
 ![image](https://github.com/iamgonnabe/game/assets/126941459/2dff4ca5-0b9b-4e07-9598-db07031a7836)
-<br/><br/>레벨20 이상이 되면 약물을 먹을 수 있다.<br/><br/>
+<br/><br/>레벨20 이상이 되면 약물을 먹을 수 있는 자격이 주어진다. 이 자격은 진화를 선택하고 5분 뒤에 생긴다.<br/><br/>
 ![image](https://github.com/iamgonnabe/game/assets/126941459/4cbddf61-9474-4e03-b240-f562895b8141)
 <br/><br/>약물을 먹으면 Max HP가 100에서 200이 된다.
