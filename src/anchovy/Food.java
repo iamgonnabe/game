@@ -10,7 +10,7 @@ public class Food {
     Scanner sc = new Scanner(System.in);
     Player eating(){
         while (player.protein<100){
-            System.out.println("1.프로틴\n2.닭고기\n3.돼지고기\n4.소고기");
+            System.out.println("1.프로틴 (LV.0)\n2.닭고기 (LV.5)\n3.돼지고기 (LV.10)\n4.소고기 (LV.20)");
             int food = sc.nextInt();
             if(food==1){
                 proteinPowder();

@@ -11,7 +11,7 @@ public class Equipment {
     Scanner sc = new Scanner(System.in);
     Player equipment(){
         while(true){
-            System.out.println("장비를 선택하시오. 1.스트랩 2.손목 보호대 3.무릎 보호대 4.팔꿈치 보호대 5.벨트 6.나가기");
+            System.out.println("장비를 선택하시오. 1.스트랩 (LV.0) 2.손목 보호대 (LV.5) 3.무릎 보호대 (LV.10) 4.팔꿈치 보호대 (LV.15) 5.벨트 (LV.20) 6.나가기");
             int kind = sc.nextInt();
             if (kind == 1){
                 if (player.equip[0] == 1){
@@ -43,7 +43,7 @@ public class Equipment {
                         System.out.println("무릎 보호대를 장착하였습니다.");
                     }
                 } else {
-                    System.out.println("레벨이 부족합니다.");
+                    System.out.println("레벨이 부족합니다. (LV.10)");
                 }
             } else if (kind == 4){
                 if (player.level>=15){
@@ -55,7 +55,7 @@ public class Equipment {
                         System.out.println("팔꿈치 보호대를 장착하였습니다.");
                     }
                 } else {
-                    System.out.println("레벨이 부족합니다.");
+                    System.out.println("레벨이 부족합니다. (LV.15)");
                 }
             } else if (kind == 5){
                 if (player.level>=20){
@@ -67,7 +67,7 @@ public class Equipment {
                         System.out.println("벨트를 장착하였습니다.");
                     }
                 } else {
-                    System.out.println("레벨이 부족합니다.");
+                    System.out.println("레벨이 부족합니다. (LV.20)");
                 }
             } else if (kind == 6){
                 break;

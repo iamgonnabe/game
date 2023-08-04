@@ -74,7 +74,7 @@ public class Game_main {
                 }
             }
             else if(menu == 5){
-                System.out.println("Hp:" +player.hp+" Muscle:" +player.muscle+ " Protein:" +player.protein+" Level:"+player.level);
+                System.out.println("Player:"+player.name+" HP:" +player.hp+" Muscle:" +player.muscle+ " Protein:" +player.protein+" Level:"+player.level);
             }
             else if(menu == 6){
                 if (player.level >= 20){
